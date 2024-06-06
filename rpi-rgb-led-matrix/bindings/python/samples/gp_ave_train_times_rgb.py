@@ -33,7 +33,7 @@ def get_train_times(line, stop):
 
     ex: nb_trains, sb_trains = get_train_times("G", "G26")
     '''
-    mta_key = "6U0DOFrYQH2ozT57dfeX76VyJTVxBNMB4z65kemt"
+    mta_key = "I don't think API keys are required anymore?"
 
     if line == "G":
         response = requests.get("https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/nyct%2Fgtfs-g",
